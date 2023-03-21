@@ -1,5 +1,6 @@
 body {
-    background-color: hsl(216, 12%, 8%);
+    background-color: rgb(17, 19, 22);
+    font-family: 'Overpass', sans-serif;
 }
 
 main {
@@ -7,9 +8,9 @@ main {
 }
 
 .caixa {
-    background-color: hsl(213, 19%, 18%);
+    background-color: rgb(37, 45, 54);
     padding: 20px;
-    border: 1px solid hsl(213, 19%, 18%);
+    border: 1px solid rgb(37, 45, 54);
     border-radius: 10px;
 }
 
@@ -20,11 +21,13 @@ main {
 .botao-estrela {
     border: none;
     border-radius: 50%;
-     background-color: hsl(216, 12%, 54%);
+    background-color: rgb(54, 62, 73);
+    height: 40px;
+    width: 40px;
 }
 
 .titulo {
-    color: hsl(0, 0%, 100%);
+    color: rgb(255, 255, 255);
     font-size: 24px;
     font-family: 'Overpass', sans-serif;
     font-weight: 700;
@@ -32,35 +35,38 @@ main {
 }
 
 .paragrafo {
-    color: hsl(217, 12%, 63%);
+    color: rgb(149, 158, 171);
     font-size: 15px;
-    font-family: 'Overpass', sans-serif;
     font-weight: 400;
     padding-bottom: 20px;
+    line-height: 1.5em;
 }
 
 .botao-numeros {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     padding-bottom: 20px;
 }
 
 .numeros {
-    background-color: hsl(216, 12%, 54%);
+    background-color: rgb(54, 62, 73);
     color: hsl(217, 12%, 63%);
     border: none;
     border-radius: 50%;
+    height: 40px;
+    width: 40px;
 }
 
 .enviar {
-    background-color: hsl(25, 97%, 53%);
+    background-color: rgb(251, 115, 18);
     color: hsl(0, 0%, 100%);
     border: none;
     border-radius: 20px;
     height: 40px;
     width: 100%;
     text-transform: uppercase;
-    font-family: 'Overpass', sans-serif;
     font-weight: 700; 
     font-size: 15px;
-
 }
 
