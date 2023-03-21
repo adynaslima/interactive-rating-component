@@ -70,3 +70,14 @@ main {
     font-size: 15px;
 }
 
+.rodape {
+    font-size: 12px;
+    text-align: center;
+    color: rgb(255, 255, 255); 
+    font-family: 'Overpass', sans-serif;
+    padding-bottom: 20px;
+}
+
+a {
+    color: rgb(0, 0, 255);
+}
