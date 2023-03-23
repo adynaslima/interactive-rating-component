@@ -72,8 +72,7 @@ main {
 }
 
 .secundaria {
-    display: none;
-    /*display: flex;*/
+    display: flex;
     flex-direction: column;
     align-items: center;
     height: 300px;
@@ -123,6 +122,7 @@ a {
     }
 
     .principal {
+        display: none;
         width: 30%;
         height: 325px;
         border-radius: 25px;
@@ -148,5 +148,24 @@ a {
     .numeros {
         height: 50px;
         width: 50px;
+    }
+
+    .secundaria {
+        width: 30%;
+        height: 325px;
+        border-radius: 25px;
+        padding: 30px;
+    }
+
+    .imagem-secundaria {
+        padding-bottom: 30px;
+    }
+
+    .selecionou {
+        margin-bottom: 40px;
+    }
+
+    .paragrafo-secundario {
+        padding-bottom: 0;
     }
 }
