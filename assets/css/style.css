@@ -8,7 +8,6 @@ main {
 }
 
 .principal {
-    display: none;
     height: 300px;
     background-color: rgb(37, 45, 54);
     padding: 20px;
@@ -73,7 +72,8 @@ main {
 }
 
 .secundaria {
-    display: flex;
+    display: none;
+    /*display: flex;*/
     flex-direction: column;
     align-items: center;
     height: 300px;
@@ -114,3 +114,39 @@ a {
     color: rgb(0, 0, 255);
 }
 
+@media screen and (min-width: 1250px) {
+
+    main {
+        padding: 15% 5%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .principal {
+        width: 30%;
+        height: 325px;
+        border-radius: 25px;
+        padding: 30px;
+    }
+
+    .estrela {
+        padding-bottom: 35px;
+    }
+
+    .titulo {
+        font-size: 30px;
+    }
+
+    .paragrafo {
+        font-size: 15px;
+    }
+
+    .botao-numeros {
+        padding-bottom: 25px;
+    }
+
+    .numeros {
+        height: 50px;
+        width: 50px;
+    }
+}
