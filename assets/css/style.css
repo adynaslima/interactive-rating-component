@@ -64,6 +64,11 @@ main {
     color:rgb(255, 255, 255);
 }
 
+.numeros:active {
+    background-color: rgb(251, 115, 18);
+    color: rgb(255, 255, 255);
+}
+
 .enviar {
     background-color: rgb(251, 115, 18);
     color: rgb(255, 255, 255);
