@@ -1,0 +1,1 @@
+document.querySelector('#principa1').addEventListener('click')
