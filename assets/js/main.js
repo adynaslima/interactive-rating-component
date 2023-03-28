@@ -1,8 +1,8 @@
 const enviar = document.querySelector(".enviar")
 const cartao1 = document.querySelector(".principal")
 const cartao2 = document.querySelector(".secundaria")
-const nota = document.querySelector(".numeros")
-const avaliacao = document.querySelectorAll("#avaliacao")
+const nota = document.querySelectorAll(".numeros")
+const avaliacao = document.querySelector("#avaliacao")
 
 enviar.addEventListener ("click", () => {
     cartao2.classList.remove("hidden")
