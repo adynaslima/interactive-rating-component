@@ -8,7 +8,6 @@ main {
 }
 
 .principal {
-    /*display: none;*/
     height: 300px;
     background-color: rgb(37, 45, 54);
     padding: 20px;
@@ -89,7 +88,6 @@ main {
 }
 
 .secundaria {
-    /*display: none;*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -117,6 +115,10 @@ main {
 
 .paragrafo-secundario {
     text-align: center;
+}
+
+.hidden {
+    display: none;
 }
 
 .rodape {
@@ -168,7 +170,6 @@ a {
     }
 
     .secundaria {
-        /*display: none;*/
         width: 30%;
         height: 325px;
         border-radius: 25px;
