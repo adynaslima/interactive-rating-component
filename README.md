@@ -54,7 +54,7 @@ Os usuários devem ser capazes de:
 ### O que aprendi
 
 ```css
-..botao-numeros {
+.botao-numeros {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
