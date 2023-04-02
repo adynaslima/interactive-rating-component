@@ -39,7 +39,7 @@ Os usuários devem ser capazes de:
 ### Links
 
 - URL da solução: [GitHub](https://github.com/adynaslima/interactive-rating-component.git)
-- URL do site: [Site](https://adynaslima.github.io/interactive-rating-component/)
+- URL do site: [Site](https://vercel.com/adynaslima/interactive-rating-component)
 
 ## Meu processo
 
